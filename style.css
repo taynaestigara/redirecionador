@@ -91,6 +91,13 @@
     cursor: pointer;
 }
 
+.button:hover {
+    transition: 0.7s;
+    transform: translateY(-3px);
+    background-color: #cdbbbb;
+    box-shadow: 10px 9px 21px 3px rgba(107,105,107,0.76);
+}
+
 a:link {
     text-decoration: none;
     color:#616161;
@@ -99,4 +106,5 @@ a:link {
 a:visited {
     text-decoration: none;
     color:#555555;
+    background-color: #cdbbbb;
 }
