@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body
+{
+    background-color: #cdbbbb ;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #e8f3f1;
+    justify-content: center;
+    align-items: center;
+}
+
+.section
+{
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    background-color: #e4dede;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}   
+
+.header
+{
+    color: #616161;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav { 
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #e4dede;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.botao
+{
+    width: 30px;
+    height: 30px;
+    background-color: #e4dede;
+    color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    gap: 0px;
+ 
+}
+
+.botao:hover
+{
+    background-color: #d7cdcd;
+}
+
+.button {
+    display: flex;
+    background-color: #d7cdcd;
+    box-shadow: 10px 9px 21px 3px rgba(107,105,107,0.76);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    color: #616161;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color:#616161;
+}
