@@ -108,3 +108,16 @@ a:visited {
     color:#555555;
     background-color: #cdbbbb;
 }
+
+@media screen and (max-width: 450px) {
+    .section {
+        width: 90%;
+        height: 75%;
+    }
+
+    .button {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+}
